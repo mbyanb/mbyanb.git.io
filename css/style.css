@@ -15,21 +15,53 @@
     padding-top: 0.2rem;
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
+    margin: 0;
+    color:antiquewhite;
 }
 
-nav {
-    text-align: center; /* Mengatur teks di dalam nav menjadi tengah */
-    margin-top: 20px; /* Jarak dari atas */
+.center-header {
+    text-align: center; 
+    margin: 20px 0; 
 }
 
-
-.circle {
-    width: 159px; /* Atur lebar gambar */
-    height: 200px; /* Atur tinggi gambar */
-    border-radius: 80%; /* Membuat gambar menjadi bulat */
-    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
-    border: 2px solid #ccc; /* Opsional: menambahkan border */
-}
 body {
-    background: linear-gradient( rgb(57, 57, 94) 15%, rgb(162, 161, 161) 40%, gray 70%) ;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.navi {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.navi li {
+    margin: 0 15px; 
+}
+
+.linkSosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+.logoSosmed {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+  }
+
+.kontaksaya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    margin-bottom: 1px; 
+  }
+
+body {
+    background: linear-gradient( rgb(149, 149, 236) 15%, rgb(146, 141, 141) 70%) ;
 }

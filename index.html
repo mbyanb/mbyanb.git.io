@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biografi Saya</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       hr {
         margin: 40px;
@@ -13,24 +16,22 @@
   </head>
   <body>
     <!-- Header: Judul dan Navigasi -->
-    <header>
-      <h1 class= "potopas" >Muhammad Byan Burika</h1>
+    <header class="center-header">
+      <h1 class="potopas">Muhammad Byan Burika</h1>
       <nav>
-        <ul>
-          <div class="navi">
-          <p><a href="#tentang">Tentang</a></p>
-          <p><a href="#pengalaman">Pengalaman</a></p>
-          <p><a href="https://wa.me/6212345678901">Contact</a></p>
-        <ul> 
+          <ul class="navi">
+              <li><p><a href="#tentang">Tentang</a></p></li>
+              <li><p><a href="#pengalaman">Pengalaman</a></p></li>
+              <li><p><a href="https://wa.me/6212345678901">Contact</a></p></li>
+          </ul>
       </nav>
-    </header>
+  </header>
     <section>
       <div class="potopas">
         <img class="circle paspoto" src="img/paspoto.jpg" alt="">
       </div>
     </section>  
 
-    <!-- Konten Utama -->
     <main>
       <!-- Bagian Tentang (Biografi) -->
       <article id="tentang">
@@ -71,6 +72,15 @@
       </ul>
     <!-- Aside: Informasi Tambahan -->
     <aside>
+      <h3>Keahlian</h3>
+      <ul>
+      <li>Algorithm and Programming</li>
+      <li>Hardware Technical</li>
+      <li>Troubleshooting</li>
+      </ul>
+    </aside>
+
+    <aside>
       <h3>Bahasa</h3>
       <ul>
       <li>Indonesia (Native)</li>
@@ -78,14 +88,22 @@
       <li>Jepang (Beginner)</li>
       </ul>
     </aside>
-
-    <!-- Footer: Kontak -->
-    <footer id="kontak">
-      <h3>Temui Saya</h3>
-      <form action="#" method="post">
-        <p>Email: muhbyan03@gmail.com<p>
-        <p><a href="https://www.instagram.com/mbyanb/">IG: mbyanb<p>
-        <p><a href="https://github.com/mbyanb">Github: mbyanb<p>
-
+  
+  <p>
+  <h3 class = "kontaksaya" > Temui Saya</h3>
+  <div class="linkSosmed">
+  <a>
+      <i class="fas fa-envelope logoEmail "></i>
+      <a> = muhbyan03@gmail.com<a>
+      <p>
+        <a class="logoSosmed" href="https://instagram.com/mbyanb"
+            ><i class="fab fa-instagram"></i>
+          </a>
+      </p>
+      <p>
+        <a class="logoSosmed" href="https://github.com/mbyanb"
+            ><i class="fab fa-github"></i>
+          </a>
+      </p>
   </body>
 </html>
