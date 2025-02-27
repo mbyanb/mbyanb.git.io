@@ -22,15 +22,6 @@ nav {
     margin-top: 20px; /* Jarak dari atas */
 }
 
-ul {
-    list-style-type: none; /* Menghapus bullet point */
-    padding: 0; /* Menghapus padding */
-}
-
-li {
-    display: inline; /* Menampilkan item dalam satu baris */
-    margin: 0 15px; /* Jarak antar item */
-}
 
 .circle {
     width: 159px; /* Atur lebar gambar */
